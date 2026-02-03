@@ -21,3 +21,5 @@ PSEUDO CODICE:
     stampo "Buzz"
   ALTRIMENTI SE multiplo di 3 && multiplo di 5
     stampo "FizzBuzz"
+  ALTRIMENTI
+    stampo il numero
