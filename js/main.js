@@ -17,5 +17,8 @@ for (let i = 1; i <= 100; i++) {
   } else if (i % 3 === 0 && i % 5 === 0) {
     console.log(`${multiTre}${multiCinque}`);
     
+    //Stampo il numero se non è multiplo né di 3 né di 5
+  } else {
+    console.log(i);
   }
 }
