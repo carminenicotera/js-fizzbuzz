@@ -10,3 +10,14 @@ Abbiamo visto qualcosa di particolare che possiamo usare?
 Consigli del giorno:
 -scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 -proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+PSEUDO CODICE:
+-Dichiaro e inizializzo una variabile “Fizz”
+-Dichiaro e inizializzo una variabile “Buzz”
+-FOR con un indice che va da 1 a 100
+  SE multiplo di 3
+    stampo "Fizz"
+  ALTRIMENTI SE multiplo di 5
+    stampo "Buzz"
+  ALTRIMENTI SE multiplo di 3 && multiplo di 5
+    stampo "FizzBuzz"
