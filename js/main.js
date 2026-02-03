@@ -8,5 +8,10 @@ for (let i = 1; i <= 100; i++) {
   //Eseguo i controlli condizionali per verificare se il numero è solo multiplo di 3
   if (i % 3 === 0 && i % 5 !== 0) {
     console.log(multiTre);
+
+    //Eseguo i controlli condizionali per verificare se il numero è solo multiplo di 5
+  } else if (i % 5 === 0 && i % 3 !== 0) {
+    console.log(multiCinque);
+    
   }
 }
