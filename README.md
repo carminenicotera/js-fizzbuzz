@@ -15,11 +15,11 @@ PSEUDO CODICE:
 -Dichiaro e inizializzo una variabile “Fizz”
 -Dichiaro e inizializzo una variabile “Buzz”
 -FOR con un indice che va da 1 a 100
-  SE multiplo di 3
-    stampo "Fizz"
+  SE multiplo di 3 && multiplo di 5
+    stampo "FizzBuzz"
   ALTRIMENTI SE multiplo di 5
     stampo "Buzz"
-  ALTRIMENTI SE multiplo di 3 && multiplo di 5
-    stampo "FizzBuzz"
+  ALTRIMENTI SE multiplo di 3 
+    stampo "Fizz"
   ALTRIMENTI
     stampo il numero
