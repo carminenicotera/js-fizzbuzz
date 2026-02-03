@@ -13,5 +13,9 @@ for (let i = 1; i <= 100; i++) {
   } else if (i % 5 === 0 && i % 3 !== 0) {
     console.log(multiCinque);
     
+    //Eseguo i controlli condizionali per verificare se il numero è multiplo sia di 3 che di 5
+  } else if (i % 3 === 0 && i % 5 === 0) {
+    console.log(`${multiTre}${multiCinque}`);
+    
   }
 }
